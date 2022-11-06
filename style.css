@@ -1,0 +1,52 @@
+* {
+  margin:0;
+  padding:0;
+  background-color: rgb(57, 56, 56);
+  color: #F0F0F0;
+}
+
+table{
+  width:30%;
+  border-collapse: separate;
+  border-spacing: 0px 10px;
+  background-color: rgb(57, 56, 56);
+}
+
+thead th{
+  border: white solid 3px;
+  font-family:"Poppins", sans-serif;
+  font-weight: bold;
+}
+
+
+tbody th {
+  background-color: rgb(57, 56, 56);
+  border: white solid 3px;
+  font-family: "Poppins", sans-serif;
+}
+
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 30%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 25%;
+}
+
+.favorite {
+  color: rgb(255, 225, 0);
+}
+
+.material-icons {
+  background-color: rgb(57, 56, 56);
+  cursor: pointer;
+}
